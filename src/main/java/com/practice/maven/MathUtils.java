@@ -5,9 +5,7 @@ import org.slf4j.LoggerFactory;
 public class MathUtils {
     private static final Logger logger = LoggerFactory.getLogger(MathUtils.class);
 
-    public int add(int a, int b) {
-        return a + b;
-    }
+    public int add(int a,int b){return a+b;}
 
     public int divide(int a, int b) {
         if (b == 0) {

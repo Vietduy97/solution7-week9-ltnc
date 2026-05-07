@@ -29,5 +29,6 @@ class MathUtilsTest {
         assertEquals(5, m.add(2, 3));
         assertEquals(-1, m.add(2, -3));
         assertEquals(10, m.add(2,3));
+        assertEquals(100,m.add(36,18));
     }
 }
